@@ -1,4 +1,5 @@
 # silver-umbrella
+#a function to determine the uniqueness of a list
 def unique(list):
     for i in range(0,len(list)-1):
         if list[i] in list[i+1:]:
